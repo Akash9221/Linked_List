@@ -6,7 +6,11 @@ namespace LinkedList_Solutions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Linked List Programs");
+            LinkedList list=new LinkedList();
+            list.add(56);
+            list.add(30);
+            list.add(70);
+            list.Display(); 
         }
     }
 }
