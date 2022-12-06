@@ -38,14 +38,26 @@ namespace LinkedList_Solutions
             //l.Display();
 
             //LL5
-            LinkedList l = new LinkedList();//Create LinkedList Object
-            l.Add(56);//AddData Into List
-            l.Add(30);
-            l.Add(70);
-            Console.WriteLine("Before Pop First Element Is");
+           /* LinkedList l = new LinkedList()*/;//Create LinkedList Object
+            //l.Add(56);//AddData Into List
+            //l.Add(30);
+            //l.Add(70);
+            //Console.WriteLine("Before Pop First Element Is");
+            //l.Display();
+            //Console.WriteLine("After Pop First Element Is");
+            //l.popfirst();//pop First Element Function
+            //l.Display();
+
+            //LL6
+
+             LinkedList l = new LinkedList();//Create Linked list Objects
+            l.add(56);
+            l.add(30);
+            l.add(70);
+            Console.WriteLine("----------------------------------");
             l.Display();
-            Console.WriteLine("After Pop First Element Is");
-            l.popfirst();//pop First Element Function
+            Console.WriteLine("----------------------------------");
+            l.poplast();//Call Poplast Element function
             l.Display();
         }
     }
