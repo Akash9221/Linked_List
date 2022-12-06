@@ -20,7 +20,7 @@ namespace LinkedList_Solutions
     {
         Node head = null;
 
-        public void add(int data) //Data Add Into LinkedList
+        public void Add(int data) //Data Add Into LinkedList
         {
             Node node=new Node(data);
 
