@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LinkedList_Solutions
 {
@@ -22,11 +23,30 @@ namespace LinkedList_Solutions
             //L.Display();//Display Functio Call
 
             //LL3
+            // LinkedList l = new LinkedList();//Create LinkedList Object
+            //l.add(56);//Add Data Into List
+            //l.add(30);
+            //l.add(70);
+            //l.Display();//Call Display
+
+            //LL4
+            //LinkedList l = new LinkedList();//Create Linked list Object
+            //l.Add(56);//Add Linked list Data
+            //l.Add(70);
+            //l.Display();
+            //l.insertbetween(56, 30);//Call Insert Between function
+            //l.Display();
+
+            //LL5
             LinkedList l = new LinkedList();//Create LinkedList Object
-            l.add(56);//Add Data Into List
-            l.add(30);
-            l.add(70);
-            l.Display();//Call Display
+            l.Add(56);//AddData Into List
+            l.Add(30);
+            l.Add(70);
+            Console.WriteLine("Before Pop First Element Is");
+            l.Display();
+            Console.WriteLine("After Pop First Element Is");
+            l.popfirst();//pop First Element Function
+            l.Display();
         }
     }
 }
