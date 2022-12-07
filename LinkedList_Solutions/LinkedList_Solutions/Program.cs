@@ -61,16 +61,27 @@ namespace LinkedList_Solutions
             //l.Display();
 
             //LL7
-            LinkedList l = new LinkedList();//Create Linked List objects
-            l.Add(56);//Add Data Int the linkedlist
-            l.Add(30);
-            l.Add(70);
-            l.Display();//all display function
-            Console.WriteLine("After Searching Link List Are");
-            Console.Write("Enter The Element You Have To Search:");
-            int a = Convert.ToInt32(Console.ReadLine());
-            l.Searchlinkedlist(a);//call search function to call linked list
-            l.Display();
+            //LinkedList l = new LinkedList();//Create Linked List objects
+            //l.Add(56);//Add Data Int the linkedlist
+            //l.Add(30);
+            //l.Add(70);
+            //l.Display();//all display function
+            //Console.WriteLine("After Searching Link List Are");
+            //Console.Write("Enter The Element You Have To Search:");
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //l.Searchlinkedlist(a);//call search function to call linked list
+            //l.Display();
+
+            //LL8
+            LinkedList list = new LinkedList();//Create Linked List Object
+            list.Add(56);//Add Data Using Linked lIst
+            list.Add(30);
+            list.Add(70);
+            list.Display();
+            list.insertwithkey(30, 40);
+            Console.WriteLine("After Insertion Of 40 After 30:");
+            list.Display();
+
         }
     }
 }
