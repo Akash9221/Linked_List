@@ -39,14 +39,14 @@ namespace LinkedList_Solutions
 
             //LL5
            /* LinkedList l = new LinkedList()*/;//Create LinkedList Object
-            //l.Add(56);//AddData Into List
-            //l.Add(30);
-            //l.Add(70);
-            //Console.WriteLine("Before Pop First Element Is");
-            //l.Display();
-            //Console.WriteLine("After Pop First Element Is");
-            //l.popfirst();//pop First Element Function
-            //l.Display();
+                                                //l.Add(56);//AddData Into List
+                                                //l.Add(30);
+                                                //l.Add(70);
+                                                //Console.WriteLine("Before Pop First Element Is");
+                                                //l.Display();
+                                                //Console.WriteLine("After Pop First Element Is");
+                                                //l.popfirst();//pop First Element Function
+                                                //l.Display();
 
             //LL6
 
@@ -73,14 +73,29 @@ namespace LinkedList_Solutions
             //l.Display();
 
             //LL8
-            LinkedList list = new LinkedList();//Create Linked List Object
-            list.Add(56);//Add Data Using Linked lIst
+            //LinkedList list = new LinkedList();//Create Linked List Object
+            //list.Add(56);//Add Data Using Linked lIst
+            //list.Add(30);
+            //list.Add(70);
+            //list.Display();
+            //list.insertwithkey(30, 40);
+            //Console.WriteLine("After Insertion Of 40 After 30:");
+            //list.Display();
+
+            //LL9
+            LinkedList list = new LinkedList();//Create Object
+            list.Add(56);
             list.Add(30);
+            list.Add(40);
             list.Add(70);
             list.Display();
-            list.insertwithkey(30, 40);
-            Console.WriteLine("After Insertion Of 40 After 30:");
+            Console.Write("Enter The Element You Have To Delete:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter The Previous Element Of That Element You Have To Delete:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            list.delete(b, a);
             list.Display();
+            list.size();
 
         }
     }
