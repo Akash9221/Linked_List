@@ -50,14 +50,26 @@ namespace LinkedList_Solutions
 
             //LL6
 
-             LinkedList l = new LinkedList();//Create Linked list Objects
-            l.add(56);
-            l.add(30);
-            l.add(70);
-            Console.WriteLine("----------------------------------");
-            l.Display();
-            Console.WriteLine("----------------------------------");
-            l.poplast();//Call Poplast Element function
+            // LinkedList l = new LinkedList();//Create Linked list Objects
+            //l.add(56);
+            //l.add(30);
+            //l.add(70);
+            //Console.WriteLine("----------------------------------");
+            //l.Display();
+            //Console.WriteLine("----------------------------------");
+            //l.poplast();//Call Poplast Element function
+            //l.Display();
+
+            //LL7
+            LinkedList l = new LinkedList();//Create Linked List objects
+            l.Add(56);//Add Data Int the linkedlist
+            l.Add(30);
+            l.Add(70);
+            l.Display();//all display function
+            Console.WriteLine("After Searching Link List Are");
+            Console.Write("Enter The Element You Have To Search:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            l.Searchlinkedlist(a);//call search function to call linked list
             l.Display();
         }
     }
