@@ -11,7 +11,7 @@ namespace LinkedList_Solutions
         public int data;
         public Node next;
 
-        public Node(int data)
+        public Node(int data)//Node Data
         {
             this.data = data;   
         }
